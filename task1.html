@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 3</title>
+</head>
+<script type="text/JavaScript" src="task1.js"></script>
+<body onload="showData();">
+    <div>
+        <center>
+            <table border="1" height = "50px"  width = "20">
+                <thead>
+                    <th><input type="text" id="name" onkeyup="nameSearch();" placeholder="Name"></th>
+                    <th><input type="text" id="rotationPeriod" onkeyup="rotPeriodSearch();" placeholder="Rotation Period"></th>
+                    <th><input type="text" id="orbitalPeriod" onkeyup="orbitPeriodSearch();" placeholder="Orbital Period"></th>
+                    <th><input type="text" id="diameter" onkeyup="diameterSearch();" placeholder="Diameter"></th>
+                    <th><input type="text" id="surfaceWater" onkeyup="surfWaterSearch();" placeholder="Surface Water"></th>
+                </thead>
+
+                <thead>
+                    <th>Name</th>
+                    <th>Rotation Period</th>
+                    <th>Orbital Period</th>
+                    <th>Diameter</th>
+                    <th>Surface Water</th>
+                </thead>
+                <tbody id="data">
+                </tbody>
+            </table>
+        </center>
+    </div>
+</body>
+</html>
